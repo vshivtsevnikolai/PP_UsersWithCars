@@ -44,7 +44,7 @@ public class MainApp {
 
 
       try {
-         System.out.println(userService.getUserByCar("SomCar", 101));
+         System.out.println(userService.getUserByCar("SomeCar", 101));
       } catch (NoResultException e) {
          System.out.println("User not found!");
       }
